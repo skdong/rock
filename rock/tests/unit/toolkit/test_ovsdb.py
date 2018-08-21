@@ -11,4 +11,5 @@ class TestOvsdbClient(unittest.TestCase):
     def test_del_ucast_macs_remote(self):
         self._client.del_ucast_macs_remote()
 
-
+    def test_list_ucast_macs_remote(self):
+        self._client.list_ucast_macs_remote()
